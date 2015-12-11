@@ -29,6 +29,7 @@ BookNode* create_book_node(char* title, char* author, long isbn) {
     node->author = author;
     node->isbn = isbn;
     node->next = NULL;
+    return node;
 }
 
 BookNode** create_catalogue() {

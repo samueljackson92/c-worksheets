@@ -23,7 +23,7 @@ int main()
 
     print_message(final_message);
     
-    free(meesage1);
+    free(message1);
     free(message2);
 }
 
@@ -41,5 +41,5 @@ char* read_message()
 void print_message(char* message)
 {
     printf("The message was: %s\n", message);
-    printf("The length of the message is %d\n", strlen(message));
+    printf("The length of the message is %lu\n", strlen(message));
 }
